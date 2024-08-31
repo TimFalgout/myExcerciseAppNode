@@ -1,0 +1,40 @@
+body {
+    background-color: #DDE6ED;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    background-color: #526D82;
+}
+
+.text-container {
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: #DDE6ED;
+}
+
+.header-container a {
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+#table-rows {
+    text-align: center;
+}
+
+.table-container {
+    text-align: center;
+}
+
+.table-container-avg {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .header-container a {
+        font-size: 25px;
+    }
+}
